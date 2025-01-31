@@ -27,4 +27,9 @@ A simple Symfony authentication system with registration and login.
 4. Run the server:
     ```sh
     symfony server:start
-        
+<img width="1440" alt="Screenshot 2025-01-31 at 21 45 57" src="https://github.com/user-attachments/assets/ef2ceb81-dd5c-4a17-97c0-6c63a73d515e" />
+<br>
+<img width="1440" alt="Screenshot 2025-01-31 at 21 46 05" src="https://github.com/user-attachments/assets/35285b02-6c67-4d61-9817-4c4bd2a66f68" />
+
+    
+
