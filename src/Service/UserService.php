@@ -32,7 +32,7 @@ class UserService
         $this->entityManager->persist($user);
         $this->entityManager->flush();
 
-        return null; // Якщо все успішно, повертаємо null (без помилки)
+        return null;
     }
 
     public function loginUser(string $login, string $password): ?string
@@ -47,7 +47,7 @@ class UserService
             return "Invalid password!";
         }
 
-        return null; // Успішний вхід
+        return null;
     }
 }
 ?>
