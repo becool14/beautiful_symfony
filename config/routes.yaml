@@ -1,0 +1,10 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+redirect_to_register:
+    path: /{any}
+    controller: App\Controller\RedirectController::redirectToRegister
+    requirements:
+        any: "^(?!login$|register$).*"
